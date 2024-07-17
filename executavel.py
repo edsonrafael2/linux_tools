@@ -35,13 +35,11 @@ def executar():
     print()
     print('Programa executado!!')
 
-def main():
-        
+def main(): 
 
     while 1:
         
-        resposta = menu()
-                
+        resposta = menu()                
         if resposta == 1:
             editar_arquivo()
 
@@ -51,9 +49,9 @@ def main():
         elif resposta == 3:
             executar()
 
-        if resposta == 4:
+        elif resposta == 4:
             break
-    print()
+        
     print('Fim do Programa!!!')
 
 main()
